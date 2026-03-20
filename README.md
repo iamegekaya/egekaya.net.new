@@ -61,9 +61,3 @@ The contact form submits to `POST /api/contact`. The API route validates and san
 ## Photography Gallery
 
 The photography page reads files from `public/images/portfolio` on the server and renders them automatically in filename order. Add or remove supported image files in that directory to update the gallery.
-
-## GitHub Notes
-
-- Do not commit the real `.env` file.
-- `package-lock.json` should be committed.
-- Static assets in `public/` are part of the site and should be committed.
